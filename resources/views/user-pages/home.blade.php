@@ -6,7 +6,7 @@
 <div class="homepage-slides">
     <!-- Slide 1 -->
     <div class="single-slide-item">
-        <div class="image-layer" style="background-image: url(assets/img/slider/slide-1.jpg);">
+        <div class="image-layer" style="background-image: url(assets/img/slider/slide-4.jpg);">
             <div class="overlay"></div>
         </div>
 
