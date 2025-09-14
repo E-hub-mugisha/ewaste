@@ -1,6 +1,5 @@
 @extends('layouts.auth')
 @section('content')
-<!-- Session Status -->
 
 <!-- Contact Section  -->
 
@@ -43,7 +42,7 @@
                     <div class="quotation-inner">
                         <h5 class="quotation-heading">Sign Into your Account</h5>
                         <p class="quotation-desc">
-                           Please enter your credentials to access your account.
+                            Please enter your credentials to access your account.
                         </p>
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
@@ -69,7 +68,7 @@
                                         {{ __('Forgot your password?') }}
                                     </a>
                                     @endif
-<br/>
+                                    <br />
                                     <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('register') }}">
                                         {{ __('Create an account') }}
                                     </a>
