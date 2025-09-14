@@ -74,10 +74,10 @@ $companies = \App\Models\Partner::all();
                                         <a class="nav-link" href="{{ route('home.pricing') }}">Pricing</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('about') }}">About Us</a>
+                                        <a class="nav-link" href="{{ route('register') }}">Register</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                                        <a class="nav-link" href="{{ route('login') }}">Login</a>
                                     </li>
                                 </ul>
                             </div>
