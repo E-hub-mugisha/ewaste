@@ -5,9 +5,9 @@
         <div class="footer-up">
             <div class="row">
                 <div class="col-lg-8 col-md-6 col-sm-12">
-                    <div class="logo">
+                    <!-- <div class="logo">
                         <img src="assets/img/logo-white.png" alt="ecofix-logo">
-                    </div>
+                    </div> -->
                     <div class="contact-info">
                         <p><b>Location:</b> KK 407 ST, RWANDA</p>
                         <p><b>Phone:</b> +250 780 201 963</p>
@@ -20,7 +20,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="subscribe-form">
                         <h6>Newsletter</h6>
-                        <form action="https://www.iideainformatics.it/html/devgalaxy/ecofix_v1_1/index.html">
+                        <form action="#">
                             <input type="email" placeholder="Your email">
                             <button type="submit"><i class="las la-envelope"></i></button>
                         </form>

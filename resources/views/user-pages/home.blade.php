@@ -6,7 +6,7 @@
 <div class="homepage-slides">
     <!-- Slide 1 -->
     <div class="single-slide-item">
-        <div class="image-layer" style="background-image: url(assets/img/slider/slide-4.jpg);">
+        <div class="image-layer" style="background-image: url(user-assets/img/slider/slide-4.jpg);">
             <div class="overlay"></div>
         </div>
 
@@ -29,29 +29,6 @@
         </div>
     </div>
 
-    <!-- Slide 2 -->
-    <div class="single-slide-item hero-area-bg-2">
-        <div class="image-layer" style="background-image: url(assets/img/slider/slide-2.jpg);">
-            <div class="overlay"></div>
-        </div>
-
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-9 col-lg-9 wow fadeInUp animated" data-wow-delay=".2s">
-                    <div class="hero-area-content">
-                        <div class="section-title">
-                            <h6>Reduce | Reuse | Recycle</h6>
-                            <h1>Transforming E-Waste <br> Into Resources</h1>
-                        </div>
-                        <p>Join our mission to minimize electronic waste pollution. Submit old devices, schedule pickups,
-                            and learn how recycling benefits the environment while supporting responsible e-waste management.</p>
-                        <a href="#" class="main-btn primary mt-30" data-bs-toggle="modal" data-bs-target="#submitDeviceModal">Submit Your Device</a>
-                        <a href="#" class="main-btn secondary mt-30">Track Your Device</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 
@@ -126,7 +103,7 @@
             <!-- About Image -->
             <div class="col-12 col-lg-6 wow fadeInLeft" data-wow-delay=".4s">
                 <div class="about-img position-relative">
-                    <img src="assets/img/about/about.jpg" alt="E-Waste Recycling">
+                    <img src="user-assets/img/slider/slide-4.jpg" alt="E-Waste Recycling">
                     <div class="about-counter">
                         <div class="counter-icon">
                             <img src="assets/img/icon/customer-service.png" alt="Happy Users">
@@ -344,9 +321,6 @@
             <!-- Partner 1 -->
             @foreach ($partners as $partner)
             <div class="project-single">
-                <div class="project-img">
-                    <img src="assets/img/partners/partner1.jpg" alt="Partner 1">
-                </div>
                 <div class="project-content">
                     <div class="project-cat">
                         <a href="#">Electronics, </a>
@@ -627,7 +601,7 @@
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="100ms">
                 <div class="team-single">
                     <div class="team-img">
-                        <img src="assets/img/team/1.jpg" alt="">
+                        <img src="user-assets/img/team/1.jpg" alt="">
                         <ul class="list-unstyled team-social">
                             <li><a href="#"><i class="lab la-twitter"></i></a></li>
                             <li><a href="#"><i class="lab la-facebook"></i></a></li>
