@@ -265,7 +265,7 @@ class DeviceController extends Controller
         // After saving device
         Mail::to($device->user->email)->send(new DeviceSubmissionMail($device));
 
-        return redirect()->route('payment.checkout', $device->id)->with('success', 'Device submitted successfully! Your tracking code: ' . $data['tracking_code']);
+        return redirect()->back()->with('success', 'Device submitted successfully! Your tracking code: ' . $data['tracking_code']);
     }
 
     public function checkoutOrder($deviceId)

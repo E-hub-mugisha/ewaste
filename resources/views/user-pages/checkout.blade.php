@@ -31,21 +31,7 @@
                         <li class="list-group-item"><strong>Total:</strong> {{ number_format($pricing->price * $device->quantity, 2) }} {{ $pricing->currency }}</li>
                     </ul>
 
-                    <!-- Payment Form -->
-                    <form method="POST" action="{{ route('payment.initiate') }}">
-                        @csrf
-                        <input type="hidden" name="device_id" value="{{ $device->id }}">
-                        <input type="hidden" name="pricing_id" value="{{ $pricing->id }}">
-                        <input type="hidden" name="amount" value="{{ $pricing->price * $device->quantity }}">
-                        <input type="hidden" name="currency" value="{{ $pricing->currency }}">
-                        <input type="hidden" name="email" value="{{ $device->user->email }}">
-                        <input type="hidden" name="name" value="{{ $device->user->name }}">
-                        <input type="hidden" name="phone" value="{{ $device->user->phone }}">
-
-                        <button type="submit" class="btn btn-success btn-lg w-100">
-                            Initiate Payment
-                        </button>
-                    </form>
+                    <a href="/" class="btn btn-primary btn-lg btn-block">Back to home</a>
                 </div>
             </div>
 
@@ -53,8 +39,5 @@
     </div>
 </div>
 
-<!-- flutterwave script -->
-<script src="https://checkout.flutterwave.com/v3.js"></script>
-<!-- end flutterwave script -->
 
 @endsection
