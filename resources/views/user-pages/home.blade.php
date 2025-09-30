@@ -22,7 +22,7 @@
                             schedule pickups, and track the status of their devices—all while contributing to a cleaner
                             and more sustainable environment.</p>
                         <a href="#" class="main-btn primary mt-30" data-bs-toggle="modal" data-bs-target="#submitDeviceModal">Submit Your Device</a>
-                        <a href="#" class="main-btn secondary mt-30">Track Your Device</a>
+                        <a href="#" class="main-btn secondary mt-30 search-trigger">Track Your Device</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                     <img src="user-assets/img/slider/slide-4.jpg" alt="E-Waste Recycling">
                     <div class="about-counter">
                         <div class="counter-icon">
-                            <img src="assets/img/icon/customer-service.png" alt="Happy Users">
+                            <img src="user-assets/img/icon/customer-service.png" alt="Happy Users">
                         </div>
                         <div class="counter-number">
                             <span class="counting" data-counterup-nums="154">4754</span>
@@ -134,10 +134,10 @@
                 <div class="services-two_single">
                     <div class="services-two_img-box">
                         <div class="services-two_img">
-                            <img src="assets/img/service/device_collection.jpg" alt="Device Collection">
+                            <img src="user-assets/img/slider/slide-4.jpg" alt="Device Collection">
                         </div>
                         <div class="services-two_icon">
-                            <img src="assets/img/icon/device.png" alt="Device Icon">
+                            <img src="user-assets/img/slider/slide-4.jpg" alt="Device Icon">
                         </div>
                     </div>
                     <div class="services-two_content">
@@ -156,10 +156,10 @@
                 <div class="services-two_single">
                     <div class="services-two_img-box">
                         <div class="services-two_img">
-                            <img src="assets/img/service/device_recycling.jpg" alt="Device Recycling">
+                            <img src="user-assets/img/slider/slide-4.jpg" alt="Device Recycling">
                         </div>
                         <div class="services-two_icon">
-                            <img src="assets/img/icon/recycle.png" alt="Recycle Icon">
+                            <img src="user-assets/img/slider/slide-4.jpg" alt="Recycle Icon">
                         </div>
                     </div>
                     <div class="services-two_content">
@@ -178,17 +178,17 @@
                 <div class="services-two_single">
                     <div class="services-two_img-box">
                         <div class="services-two_img">
-                            <img src="assets/img/service/pickup_tracking.jpg" alt="Pickup & Tracking">
+                            <img src="user-assets/img/slider/slide-4.jpg" alt="Pickup & Tracking">
                         </div>
                         <div class="services-two_icon">
-                            <img src="assets/img/icon/tracking.png" alt="Tracking Icon">
+                            <img src="user-assets/img/slider/slide-4.jpg" alt="Tracking Icon">
                         </div>
                     </div>
                     <div class="services-two_content">
                         <h3 class="services-two_title"><a href="#">Pickup & Tracking</a></h3>
                         <p>Track your submitted devices in real-time and receive updates on pickup, transfer, and recycling status.</p>
                         <div class="services-two_bottom">
-                            <a href="{{ route('device.track.form') }}" class="services-one_btn">Track Device</a>
+                            <a href="#" class="services-one_btn search-trigger">Track Device</a>
                             <a href="#" class="services-one_arrow"><span class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
                     </p>
                     <div class="process-btn">
                         <a href="#" class="main-btn" data-bs-toggle="modal" data-bs-target="#submitDeviceModal">Submit Device</a>
-                        <a href="{{ route('device.track.form') }}" class="main-btn white">Track Device</a>
+                        <a href="#" class="main-btn white search-trigger">Track Device</a>
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay=".2s">
                     <div class="process-single">
                         <div class="process-icon">
-                            <img src="assets/img/process/1.png" alt="Submit Device">
+                            <img src="user-assets/img/process/1.png" alt="Submit Device">
                         </div>
                         <div class="process-title">
                             <h5>Submit Device</h5>
@@ -259,7 +259,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay=".4s">
                     <div class="process-single two">
                         <div class="process-icon">
-                            <img src="assets/img/process/2.png" alt="Pickup">
+                            <img src="user-assets/img/process/2.png" alt="Pickup">
                         </div>
                         <div class="process-title">
                             <h5>Pickup Scheduled</h5>
@@ -274,7 +274,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay=".6s">
                     <div class="process-single three">
                         <div class="process-icon">
-                            <img src="assets/img/process/3.png" alt="Transfer & Tracking">
+                            <img src="user-assets/img/process/3.png" alt="Transfer & Tracking">
                         </div>
                         <div class="process-title">
                             <h5>Transfer & Track</h5>
@@ -289,7 +289,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay=".8s">
                     <div class="process-single four">
                         <div class="process-icon">
-                            <img src="assets/img/process/4.png" alt="Recycling">
+                            <img src="user-assets/img/process/4.png" alt="Recycling">
                         </div>
                         <div class="process-title">
                             <h5>Recycling Completed</h5>
@@ -349,7 +349,7 @@
             <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
                 <div class="choose_us_left">
                     <div class="choose_us_img">
-                        <img src="assets/img/choose_us_ewaste.jpg" alt="E-Waste Collection">
+                        <img src="user-assets/img/choose_us_ewaste.jpg" alt="E-Waste Collection">
                     </div>
                 </div>
             </div>
@@ -445,7 +445,7 @@
             @foreach( $devices as $device )
             <div class="service-single">
                 <div class="service-icon">
-                    <img src="assets/img/devices/laptop.png" alt="Laptop">
+                    <img src="user-assets/img/devices/laptop.png" alt="Laptop">
                 </div>
                 <div class="service-content">
                     <h4>{{ $device->name }}</h4>

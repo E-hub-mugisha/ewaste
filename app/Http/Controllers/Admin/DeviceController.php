@@ -193,7 +193,7 @@ class DeviceController extends Controller
     public function indexDeviceTransfer()
     {
         $transfers = DeviceTransfer::with(['device', 'collector', 'partner'])->get();
-        $devices = Device::where('status', 'Collected')->get();
+        $devices = Device::all();
         $collectors = User::where('role', 'collector')->get();
         $partners = Partner::all();
 
