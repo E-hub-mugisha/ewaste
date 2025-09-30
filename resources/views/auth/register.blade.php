@@ -3,7 +3,7 @@
 
 <!-- Contact Section  -->
 
-<div class="contact-area section-padding vh-100">
+<div class="contact-area section-padding ">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-5 col-lg-6 wow fadeInUp" data-wow-delay=".2s">
